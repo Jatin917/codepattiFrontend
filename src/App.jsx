@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import PlayerCard from './components/PlayerCard/PlayerCard'
-
+import Description from './Components/Description'
 function App() {
   console.log(data);
   return (
@@ -12,6 +12,7 @@ function App() {
       <PlayerCard playerName='Arun' id='xyz'/>
       <PlayerCard playerName='Shubh' id='1h3'/>
       <PlayerCard playerName='Alice' />
+      < Description className='bg-red-500 text-xl font-semibold text-center'    > </Description>
     </div> 
     </>
   )
