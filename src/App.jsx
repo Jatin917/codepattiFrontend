@@ -3,7 +3,7 @@ import './App.css'
 import PlayerCard from './components/PlayerCard/PlayerCard'
 
 function App() {
-
+  console.log(data);
   return (
     <>
     <div className='bg-red-500 text-xl font-semibold text-center'>CodePatti Frontend</div>
